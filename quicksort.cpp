@@ -33,7 +33,8 @@ template<typename IT> IT pivot_median(IT begin, IT end)
 	else if(*(end-1)<=*pivot && *begin<=*(end-1)) pivot=end-1;
 	return pivot;
 }
-String add log
+string add log
+string using add
 template<typename IT> pivot_random<IT>::pivot_random()
 {
   srand((unsigned int)time(NULL));

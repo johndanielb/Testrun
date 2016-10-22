@@ -38,6 +38,7 @@ int main(int argc, char* argv[])
 	int a[]={3,8,0,6,7,4,2,1,9,3,1,8,3,9,2,0,9};
 	int *a_end=a+sizeof a/sizeof(int);
 	adding a new line
+		adding the second line
 
 	std::cout<<"a before qsort: ";
 	std::for_each(a, a_end, print<int>);
